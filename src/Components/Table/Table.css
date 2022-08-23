@@ -1,0 +1,51 @@
+table {
+    border-collapse: collapse;
+    border: 1px solid;
+}
+
+table td, table th {
+    border: 1px solid;
+    padding: 0;
+}
+
+table {
+    width: 100%;
+    overflow-x: auto;
+}
+
+input:focus {
+    border: none;
+    outline: none;
+}
+
+.table-input, .answer-output {
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.table-input{
+    width: auto;
+    font-size: 100%;
+}
+
+.table-input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+
+.answer-output {
+    font-size: 30px;
+    padding: 0 8px;
+}
+
+.answer-holder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.medium {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+}

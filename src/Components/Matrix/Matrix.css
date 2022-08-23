@@ -1,0 +1,73 @@
+.matrix-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 60%;
+
+    align-items: center;
+    position: relative;
+}
+
+input[form="dummy"] {
+    font-size: 18px;
+    border-width: 1px;
+    border-radius: 4px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.4s;
+}
+
+input[form="dummy"]:hover {
+    background-color: var(--dark-color);
+    color: var(--light-color);
+}
+
+input[form="dummy"]::after {
+    color: var(--highlight-color);
+}
+
+input[form="dummy"]:disabled {
+    opacity: 0.5;
+}
+
+input[form="dummy"]:disabled:hover {
+    background-color: var(--light-color);
+    color: var(--dark-color);
+}
+
+/* input[type=number]::-webkit-inner-spin-button {
+  } */
+
+.matrices {
+    display: flex;
+    gap: 10px;
+}
+
+.matrix-holder {
+    flex-shrink: 1;
+    width: 100%;
+}
+
+.dimension-holder {
+    display: flex;
+}
+
+.matrix-submit {
+    /* position: absolute;
+    top: calc(100% + 20px); */
+    width: fit-content;
+
+    /* position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center; */
+}
+
+.x {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.checkbox-holder {
+    justify-content: center;
+    gap: 20px;
+}
